@@ -29,7 +29,7 @@ GET /api/v1/votes/election/{electionId} - Wyniki wyborów <br/>
 
 Przykłady zapytań:
 
-Rejestracja wyborca:
+Rejestracja wyborca: <br/>
 curl --location 'http://localhost:8080/api/v1/voters' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -38,7 +38,7 @@ curl --location 'http://localhost:8080/api/v1/voters' \
     "lastName": "Niemiec"
 }'
 
-Utworzenie wyborów:
+Utworzenie wyborów: <br/>
 curl --location 'http://localhost:8080/api/v1/elections' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -58,7 +58,7 @@ curl --location 'http://localhost:8080/api/v1/elections' \
     ]
   }'
 
-Oddanie głosu:
+Oddanie głosu: <br/>
 curl --location 'http://localhost:8080/api/v1/votes' \
 --header 'Content-Type: application/json' \
 --data '{
