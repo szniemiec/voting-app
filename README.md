@@ -74,8 +74,8 @@ Oddanie głosu: <br/>
 curl --location 'http://localhost:8080/api/v1/votes' \
 --header 'Content-Type: application/json' \
 --data '{
-    "voterId": 7,
-    "electionId": 2,
-    "optionId": 2
+    "voterId": 1,
+    "electionId": 1,
+    "optionId": 1
   }'
 ```
