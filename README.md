@@ -6,7 +6,7 @@ Aplikacja do zarządzania wyborami pozwalająca na rejestrację głosów w wielu
 ## Konfiguracja i Uruchomienie
 
 # 1. Utwórz bazę danych
-createdb voting_db
+createdb voting_db <br/>
 oraz dostosuj dane usera postgresowego w application.yml
 
 # 2. Uruchom aplikację
