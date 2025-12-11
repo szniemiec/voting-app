@@ -11,6 +11,7 @@ createdb voting_db
 # 2. Uruchom aplikację
 
 Endpointy: <br/>
+
 Głosujący <br/>
 ```
 POST /api/v1/voters - Rejestracja nowego wyborca
