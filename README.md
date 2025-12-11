@@ -13,24 +13,24 @@ createdb voting_db
 Endpointy: <br/>
 Głosujący <br/>
 ```
-POST /api/v1/voters - Rejestracja nowego wyborca <br/>
-GET /api/v1/voters - Lista wszystkich wyborców <br/>
-GET /api/v1/voters/{id} - Dane wyborca <br/>
-PUT /api/v1/voters/{id}/block - Blokowanie wyborca <br/>
-PUT /api/v1/voters/{id}/unblock - Odblokowanie wyborca <br/>
+POST /api/v1/voters - Rejestracja nowego wyborca
+GET /api/v1/voters - Lista wszystkich wyborców
+GET /api/v1/voters/{id} - Dane wyborca
+PUT /api/v1/voters/{id}/block - Blokowanie wyborca
+PUT /api/v1/voters/{id}/unblock - Odblokowanie wyborca
 ```
 Wybory <br/>
 ```
-POST /api/v1/elections - Utworzenie nowych wyborów <br/>
-GET /api/v1/elections - Lista wszystkich wyborów <br/>
-GET /api/v1/elections/{id} - Dane wyborów <br/>
-GET /api/v1/elections/active - Aktywne wybory <br/>
-PUT /api/v1/elections/{id}/status - Zmiana statusu <br/>
+POST /api/v1/elections - Utworzenie nowych wyborów
+GET /api/v1/elections - Lista wszystkich wyborów
+GET /api/v1/elections/{id} - Dane wyborów
+GET /api/v1/elections/active - Aktywne wybory
+PUT /api/v1/elections/{id}/status - Zmiana statusu
 ```
 Głosy <br/>
 ```
-POST /api/v1/votes - Oddanie głosu <br/>
-GET /api/v1/votes/election/{electionId} - Wyniki wyborów <br/>
+POST /api/v1/votes - Oddanie głosu
+GET /api/v1/votes/election/{electionId} - Wyniki wyborów
 ```
 
 Przykłady zapytań:
