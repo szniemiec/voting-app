@@ -27,9 +27,9 @@ public class ElectionController {
                 .body(createdElection);
     }
 
-    @GetMapping("/all")
+    @GetMapping
     public ResponseEntity<List<ElectionDto>> getAllElections() {
-        log.info("GET /api/v1/elections/all - Fetching all elections");
+        log.info("GET /api/v1/elections - Fetching all elections");
         List<ElectionDto> elections = electionService.getAllElections();
         return ResponseEntity.ok(elections);
     }

@@ -26,9 +26,9 @@ public class VoterController {
                 .body(createdVoter);
     }
 
-    @GetMapping("/all")
+    @GetMapping
     public ResponseEntity<List<VoterDto>> getAllVoters() {
-        log.info("GET /api/v1/voters/all - Fetching all voters");
+        log.info("GET /api/v1/voters - Fetching all voters");
         List<VoterDto> voters = voterService.getAllVoters();
         return ResponseEntity.ok(voters);
     }
